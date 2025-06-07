@@ -1,0 +1,90 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(171, 219, 227);
+  }
+  
+  /* seluruh component */
+  * {
+    z-index: 2;
+  }
+  /* Bagian Navbar */
+  
+  .logonav {
+    margin-left: 0px;
+    padding: 0px;
+    height: 30px;
+    width: 150px;
+  }
+  
+  .nav-color {
+    background-color: rgba(171, 219, 227);
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .bg-transparent {
+    transition: all ease-in 0.3s;
+  }
+  
+  .navbar {
+    z-index: 3;
+    background-color: rgb(246, 255, 255);
+  
+  }
+  
+  .kontak  {
+    float: right;
+  }
+  
+  
+  .btnmasuk{
+    background-color: #FFBD59;
+    font-weight: 500;
+    border-color: #FFBD59;
+    border-radius: 5px;
+    padding: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    z-index: 3;  
+  }
+  
+  .btnmasuk a {color: white;}
+     
+    .btnmasuk:hover {
+      background-color: #fda92b; 
+      color: white;
+      border-color: #FFBD59;
+    }
+
+.tagkontak {
+    font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+margin-bottom: 10px;
+    text-align: left;
+        color: #0B7588;
+
+}
+
+.parkontak {
+    text-align: justify;
+    color: black;
+    font-weight: 600;
+}
+
+.card {
+    padding: 30px;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+
+/* footer */
+#footer {
+  background:rgba(171, 219, 227);
+padding-top: 20px;
+}
+
+.tulfooter {
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}

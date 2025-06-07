@@ -1,0 +1,34 @@
+CRITICAL - 2022-08-04 01:24:27 --> Invalid file: intervensi/ADHD.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('intervensi/ADHD.php')
+ 2 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('intervensi/ADHD', null, true)
+ 3 APPPATH\Views\page\invoice3.php(7): CodeIgniter\View\View->include('intervensi/ADHD')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\page\\invoice3.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/invoice3', [], true)
+ 7 APPPATH\Controllers\Riwayat.php(821): view('page/invoice3', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('2')
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-04 01:25:08 --> Invalid file: ./intervensi/ADHD.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./intervensi/ADHD.php')
+ 2 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('./intervensi/ADHD', null, true)
+ 3 APPPATH\Views\page\invoice3.php(7): CodeIgniter\View\View->include('./intervensi/ADHD')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\page\\invoice3.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/invoice3', [], true)
+ 7 APPPATH\Controllers\Riwayat.php(821): view('page/invoice3', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('2')
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-04 23:37:46 --> Undefined index: abu-abu
+in APPPATH\Controllers\Riwayat.php on line 499.
+ 1 APPPATH\Controllers\Riwayat.php(499): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: abu-abu', 'APPPATH\\Controllers\\Riwayat.php', 499, [...])
+ 2 APPPATH\Controllers\Riwayat.php(763): App\Controllers\Riwayat->isi_html(1, 'abu-abu', 'abu-abu', 'abu-abu', 'abu-abu', 'Ana')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('2')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

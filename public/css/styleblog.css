@@ -1,0 +1,132 @@
+/*header*/
+body{
+    font-family: 'Poppins', sans-serif;
+   /* background-color: rgb(246, 255, 255);*/
+   background-color: white;
+  }
+
+
+  .logonav {
+    margin-left: 0px;
+    padding: 0px;
+    height: 30px;
+    width: 150px;
+  }
+  .nav-color {
+    background-color: rgba(171, 219, 227);
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .bg-transparent {
+    transition: all ease-in 0.3s;
+  }
+  
+  .navbar {
+    z-index: 3;
+    background-color: rgba(171, 219, 227);
+  }
+  .kontak  {
+    float: right;
+  }
+  
+  
+  .btnmasuk{
+    background-color: #FFBD59;
+    font-weight: 500;
+    border-color: #FFBD59;
+    border-radius: 5px;
+    padding: 6px;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    z-index: 3;
+    }
+
+    .btnmasuk a{
+      color: white;
+    }
+     
+    .btnmasuk:hover {
+      background-color: #fda92b; 
+      color: white;
+      border-color: #FFBD59;
+    }
+
+    .btnmasuk a:hover{
+      color: white;
+    }
+
+.card {
+ width: 100%;
+ position: relative;
+ margin: 0 auto;
+ -webkit-box-shadow: 0 3px 6px -4px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+
+.card:hover {
+  background-color: rgb(236, 236, 236)
+}
+.cardimage { 
+
+ }
+
+.box-image {
+	position: relative;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.box-image img {
+		margin: 0 auto;
+	display: inline-block;
+	vertical-align: middle;
+	border-style: none;
+
+}
+
+.list-group-item {
+	 color: #254B52;
+	 font-size: 15px;
+	 font-weight: 500;
+letter-spacing: 1px;
+	background-color: rgba(250,250,250);
+}
+
+.list-group-item:hover {
+	color: #54b3c4;
+}
+
+.tag-list {
+	font-size: 20px;
+	font-weight: 700;
+ color: #0B7588;
+ padding-left: 20px;
+ padding-bottom: 0px;
+}
+
+.kanan {
+	background-color: rgba(250,250,250);
+}
+
+.card p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp:3;
+	-webkit-box-orient: vertical;
+	text-align: justify;
+}
+
+#footer {
+  background:rgba(171, 219, 227);
+padding-top: 10px;
+margin-top: 20px;
+}
+
+.tulfooter {
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}

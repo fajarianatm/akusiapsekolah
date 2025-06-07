@@ -1,0 +1,191 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    /* background-color: rgb(246, 255, 255); */
+    background-color: rgba(171, 219, 227);
+  }
+  
+  /* seluruh component */
+  * {
+    z-index: 2;
+  }
+  /* Bagian Navbar */
+  
+  .logonav {
+    margin-left: 0px;
+    padding: 0px;
+    height: 30px;
+    width: 150px;
+  }
+  
+  .nav-color {
+    background-color: rgb(246, 255, 255);
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .bg-transparent {
+    transition: all ease-in 0.3s;
+  }
+  
+  .navbar {
+    z-index: 3;
+    background-color: rgb(246, 255, 255);
+  }
+  .kontak  {
+    float: right;
+  }
+  
+  
+ 
+.btnmasuk{
+  background-color: #FFBD59;
+  font-weight: 500;
+  border-color: #FFBD59;
+  border-radius: 5px;
+  padding: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+  z-index: 3;  
+}
+
+.btnmasuk a {color: white;}
+   
+  .btnmasuk:hover {
+    background-color: #fda92b; 
+    color: white;
+    border-color: #FFBD59;
+  }
+  
+
+/* isi */
+
+.judul {
+    font-size: 50px;
+    font-weight: 900;
+    padding-top: 20px;
+    color: #0B7588;
+}
+
+.tagline {
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 0px;
+    color: white;
+    background-color: #0B7588;
+    border-radius: 8px;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+
+}
+
+
+
+.circle-icon {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+  }
+
+  .gender {
+    display: inline-flex;
+  }
+
+  .female {
+padding-right: 150px;
+  }
+
+  .datatas .input {
+
+  }
+
+  .tagbawah1 {
+    font-size: 15px;
+    font-weight: 900;
+    padding-top: 20px;
+    color: #0B7588;
+  }
+
+  .tagbawah2 {
+    font-size: 15px;
+    font-weight: 900;
+    padding-top: 20px;
+    color: #0B7588;
+  }
+
+  .card {
+ 
+    align-items: center;
+    background: transparent;
+    padding: 10px;
+    border: none;
+    margin-top: 30px;
+  }
+
+  .card img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .login-form label {
+    color: #0B7588;
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .login-form input {
+    margin-bottom: 20px;
+  }
+  
+  .btnsubmit{
+    background-color: #fda92b; 
+  }
+
+  .btnsubmit a{
+    color: white;
+  }
+   
+  .btnsubmit:hover {
+    background-color: #fda92b; 
+    color: white;
+    border-color: #FFBD59;
+  }
+
+  .btnsubmit a:hover{
+    color: white;
+  }
+
+  
+/* footer */
+
+/* #footer {
+ background-color: rgb(246, 255, 255);
+  padding-top: 20px;
+  position: absolute;
+  bottom: 0px;
+  }
+  
+  .tulfooter {
+    color: rgba(171, 219, 227);
+    font-size: 15px;
+    font-weight: 700;
+  } */
+#footer {
+  background-color:  rgb(246, 255, 255);
+margin-top: 30px;
+padding-top: 20px;
+bottom: 0px;
+}
+
+.tulfooter {
+  color: rgba(171, 219, 227);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.gambarbocil {
+  margin-left: 0px;
+  height: 30px;
+  width: 150px;
+  padding-top: 4px;
+}

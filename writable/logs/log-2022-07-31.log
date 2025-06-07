@@ -1,0 +1,164 @@
+CRITICAL - 2022-07-31 21:02:03 --> Call to undefined method Mpdf\Mpdf::setAutoTopMargin()
+in VENDORPATH\mpdf\mpdf\src\Strict.php on line 15.
+ 1 APPPATH\Controllers\Riwayat.php(81): Mpdf\Mpdf->__call('setAutoTopMargin', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('24')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-31 21:03:16 --> Email: sendWithSmtp throwed fsockopen(): SSL: An existing connection was forcibly closed by the remote host.
+
+CRITICAL - 2022-07-31 21:03:16 --> Undefined variable: css
+in APPPATH\Views\layout\header.php on line 11.
+ 1 APPPATH\Views\layout\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: css', 'APPPATH\\Views\\layout\\header.php', 11, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\profil.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profil.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('profil', [], true)
+ 9 APPPATH\Controllers\Riwayat.php(59): view('profil')
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->kirimHasil('24')
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 21:03:42 --> Call to undefined method Mpdf\Mpdf::setAutoTopMargin()
+in VENDORPATH\mpdf\mpdf\src\Strict.php on line 15.
+ 1 APPPATH\Controllers\Riwayat.php(81): Mpdf\Mpdf->__call('setAutoTopMargin', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('24')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 21:21:47 --> Undefined offset: -1
+in VENDORPATH\mpdf\mpdf\src\Tag\BlockTag.php on line 117.
+ 1 VENDORPATH\mpdf\mpdf\src\Tag\BlockTag.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: -1', 'VENDORPATH\\mpdf\\mpdf\\src\\Tag\\BlockTag.php', 117, [...])
+ 2 VENDORPATH\mpdf\mpdf\src\Tag.php(240): Mpdf\Tag\BlockTag->open([...], [...], 5)
+ 3 VENDORPATH\mpdf\mpdf\src\Mpdf.php(13850): Mpdf\Tag->OpenTag('SECTION', [...], [...], 5)
+ 4 VENDORPATH\mpdf\mpdf\src\Mpdf.php(12453): Mpdf\Mpdf->WriteHTML('<section id="atas"> <table class="row"> <section class="col-4 mx-auto my-auto"> <img src="..\\img\\logo.png" alt="" class="mx-auto" style="height: 250px;" /> </section> <section class="col-8 my-auto kanan text-center"> <h3>Hasil Tes</h3> <p class="judul2">KESIAPAN SEKOLAH</p> <p class="judul3"> <img src="..\\img\\logotulisan.png" />REPORT</p> </section> </table> <hr /> </section>', 4)
+ 5 VENDORPATH\mpdf\mpdf\src\Mpdf.php(12719): Mpdf\Mpdf->_getHtmlHeight('<section id="atas">
+
+            <table class="row">
+                <section class="col-4 mx-auto my-auto">
+                    <img src="..\\img\\logo.png" alt="" class="mx-auto" style="height: 250px;">
+                </section>
+                <section class="col-8 my-auto kanan text-center">
+                    <h3>Hasil Tes</h3>
+                    <p class="judul2">KESIAPAN SEKOLAH</p>
+                    <p class="judul3"> <img src="..\\img\\logotulisan.png">REPORT</p>
+                </section>
+            </table>
+            <hr>
+            </section>')
+ 6 APPPATH\Controllers\Riwayat.php(83): Mpdf\Mpdf->DefHTMLHeaderByName('defaultHeader', '<section id="atas">
+
+            <table class="row">
+                <section class="col-4 mx-auto my-auto">
+                    <img src="..\\img\\logo.png" alt="" class="mx-auto" style="height: 250px;">
+                </section>
+                <section class="col-8 my-auto kanan text-center">
+                    <h3>Hasil Tes</h3>
+                    <p class="judul2">KESIAPAN SEKOLAH</p>
+                    <p class="judul3"> <img src="..\\img\\logotulisan.png">REPORT</p>
+                </section>
+            </table>
+            <hr>
+            </section>')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('24')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 21:22:48 --> Undefined offset: 0
+in VENDORPATH\mpdf\mpdf\src\Tag\BlockTag.php on line 117.
+ 1 VENDORPATH\mpdf\mpdf\src\Tag\BlockTag.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'VENDORPATH\\mpdf\\mpdf\\src\\Tag\\BlockTag.php', 117, [...])
+ 2 VENDORPATH\mpdf\mpdf\src\Tag.php(240): Mpdf\Tag\BlockTag->open([...], [...], 7)
+ 3 VENDORPATH\mpdf\mpdf\src\Mpdf.php(13850): Mpdf\Tag->OpenTag('SECTION', [...], [...], 7)
+ 4 VENDORPATH\mpdf\mpdf\src\Mpdf.php(12453): Mpdf\Mpdf->WriteHTML('<section id="atas"> <table class="row"> <tr> <section class="col-4 mx-auto my-auto"> <img src="..\\img\\logo.png" alt="" class="mx-auto" style="height: 250px;" /> </section> <section class="col-8 my-auto kanan text-center"> <h3>Hasil Tes</h3> <p class="judul2">KESIAPAN SEKOLAH</p> <p class="judul3"> <img src="..\\img\\logotulisan.png" />REPORT</p> </section> </tr> </table> <hr /> </section>', 4)
+ 5 VENDORPATH\mpdf\mpdf\src\Mpdf.php(12719): Mpdf\Mpdf->_getHtmlHeight('<section id="atas">
+                <table class="row">
+                <tr>
+                    <section class="col-4 mx-auto my-auto">
+                        <img src="..\\img\\logo.png" alt="" class="mx-auto" style="height: 250px;">
+                    </section>
+                    <section class="col-8 my-auto kanan text-center">
+                        <h3>Hasil Tes</h3>
+                        <p class="judul2">KESIAPAN SEKOLAH</p>
+                        <p class="judul3"> <img src="..\\img\\logotulisan.png">REPORT</p>
+                    </section>
+                </tr>
+                </table>
+                <hr>
+            </section>')
+ 6 APPPATH\Controllers\Riwayat.php(83): Mpdf\Mpdf->DefHTMLHeaderByName('defaultHeader', '<section id="atas">
+                <table class="row">
+                <tr>
+                    <section class="col-4 mx-auto my-auto">
+                        <img src="..\\img\\logo.png" alt="" class="mx-auto" style="height: 250px;">
+                    </section>
+                    <section class="col-8 my-auto kanan text-center">
+                        <h3>Hasil Tes</h3>
+                        <p class="judul2">KESIAPAN SEKOLAH</p>
+                        <p class="judul3"> <img src="..\\img\\logotulisan.png">REPORT</p>
+                    </section>
+                </tr>
+                </table>
+                <hr>
+            </section>')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('24')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 21:49:11 --> file_get_contents(..\bootstrap\css\bootstrap.min.css): failed to open stream: No such file or directory
+in APPPATH\Controllers\Riwayat.php on line 123.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(..\\bootstrap\\css\\bootstrap.min.css): failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Riwayat.php', 123, [...])
+ 2 APPPATH\Controllers\Riwayat.php(123): file_get_contents('..\\bootstrap\\css\\bootstrap.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('24')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 21:49:41 --> file_get_contents(../bootstrap/css/bootstrap.min.css): failed to open stream: No such file or directory
+in APPPATH\Controllers\Riwayat.php on line 123.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(../bootstrap/css/bootstrap.min.css): failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Riwayat.php', 123, [...])
+ 2 APPPATH\Controllers\Riwayat.php(123): file_get_contents('../bootstrap/css/bootstrap.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('24')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 21:50:33 --> file_get_contents(public/bootstrap/css/bootstrap.min.css): failed to open stream: No such file or directory
+in APPPATH\Controllers\Riwayat.php on line 123.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(public/bootstrap/css/bootstrap.min.css): failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Riwayat.php', 123, [...])
+ 2 APPPATH\Controllers\Riwayat.php(123): file_get_contents('public/bootstrap/css/bootstrap.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('24')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 21:51:56 --> file_get_contents(bootstrap.min.css): failed to open stream: No such file or directory
+in APPPATH\Controllers\Riwayat.php on line 123.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(bootstrap.min.css): failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Riwayat.php', 123, [...])
+ 2 APPPATH\Controllers\Riwayat.php(123): file_get_contents('bootstrap.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('24')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 21:53:50 --> file_get_contents(invoice1.css): failed to open stream: No such file or directory
+in APPPATH\Controllers\Riwayat.php on line 124.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(invoice1.css): failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Riwayat.php', 124, [...])
+ 2 APPPATH\Controllers\Riwayat.php(124): file_get_contents('invoice1.css')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('24')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 22:41:07 --> Undefined index: fieldname
+in VENDORPATH\mpdf\mpdf\src\Form.php on line 557.
+ 1 VENDORPATH\mpdf\mpdf\src\Form.php(557): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: fieldname', 'VENDORPATH\\mpdf\\mpdf\\src\\Form.php', 557, [...])
+ 2 VENDORPATH\mpdf\mpdf\src\Mpdf.php(7669): Mpdf\Form->print_ob_checkbox([...], 0.0, 0.0, 'ROOTPATH\\public', 'L', 1, 'ltr', 28.59091666666665, 130.20978481856437)
+ 3 VENDORPATH\mpdf\mpdf\src\Mpdf.php(7037): Mpdf\Mpdf->printobjectbuffer(true, 'ltr')
+ 4 VENDORPATH\mpdf\mpdf\src\Mpdf.php(16540): Mpdf\Mpdf->finishFlowingBlock(true)
+ 5 VENDORPATH\mpdf\mpdf\src\Mpdf.php(23028): Mpdf\Mpdf->printbuffer([...], 'ROOTPATH\\public', true, false, 'ltr')
+ 6 VENDORPATH\mpdf\mpdf\src\Tag\Table.php(1131): Mpdf\Mpdf->_tableWrite([...])
+ 7 VENDORPATH\mpdf\mpdf\src\Tag.php(247): Mpdf\Tag\Table->close([...], 137)
+ 8 VENDORPATH\mpdf\mpdf\src\Mpdf.php(13756): Mpdf\Tag->CloseTag('TABLE', [...], 137)
+ 9 APPPATH\Controllers\Riwayat.php(137): Mpdf\Mpdf->WriteHTML('  <div class="main-page"> <div class="sub-page"> <section> <div class="card"> <div class="atas"> <table class="table table-bordered"> <tr> <th scope="row">Area yang unggul:</th> <td>Mark</td> </tr> <tr> <th scope="row">(Panggilan) unggul pada area motorik kasara, motorik halus, dan personal sosial</th> <td>Mark</td> </tr> </table> </div> <div class="tengah"> <table class="table table-bordered"> <tr> <th scope="row">Area yang menjadi perhatian:</th> <td>Mark</td> </tr> <tr> <th scope="row">(Panggilan) mendapatkan skor rendah pada penilaian area ADHD</th> <td>(Panggilan) mendapatkan skor rendah pada penilaian area ADHD</td> </tr> </table> </div> <div class="bawah"> <p>Tindakan yang dapat diambil : </p> <table class="table table-bordered"> <tr> <th scope="row"> <input class="form-check-input" type="checkbox" value="boom" id="flexCheckDefault" check="checked" />.</th> <td>Mencoba aktivitas yang sediakan dan lakukan kembali tes dalam __ bulan. Tidak ada tindakan lebih lanjut yang diperlukan saat ini.</td> </tr> <tr> <th scope="row"> <input class="form-check-input" type="checkbox" value="boom" id="flexCheckDefault" check="checked" />.</th> <td>Kami merekomendasikan agar (Panggilan) dirujuk untuk pemeriksaan Pendengaran Pengelihatan</td> </tr> <tr> <th scope="row"> <input class="form-check-input" type="checkbox" value="boom" id="flexCheckDefault" check="checked" />.</th> <td>Kami merekomendasikan agar (Panggilan) dirujuk ke penyedia layanan kesehatan primer atau lembaga komunitas lain karena alasan berikut_____.</td> </tr> <tr> <th scope="row"> <input class="form-check-input" type="checkbox" value="boom" id="flexCheckDefault" check="checked" />.</th> <td>Tidak ada tindakan lebih lanjut yang diperlukan saat ini.</td> </tr> </table> </div> </div> </div> </section> </div>  ', 2)
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('24')
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

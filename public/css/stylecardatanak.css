@@ -1,0 +1,160 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(246, 255, 255);
+  }
+
+
+  .logonav {
+    margin-left: 0px;
+    padding: 0px;
+    height: 30px;
+    width: 150px;
+  }
+  .nav-color {
+    background-color: rgba(171, 219, 227);
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .bg-transparent {
+    transition: all ease-in 0.3s;
+  }
+  
+  .navbar {
+    z-index: 3;
+    background-color: rgba(171, 219, 227);
+  }
+  .kontak  {
+    float: right;
+  }
+  
+  
+  .btnmasuk{
+    background-color: #FFBD59;
+    font-weight: 500;
+    border-color: #FFBD59;
+    border-radius: 5px;
+    padding: 6px;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    z-index: 3;
+    }
+
+    .btnmasuk a{
+      color: white;
+    }
+     
+    .btnmasuk:hover {
+      background-color: #fda92b; 
+      color: white;
+      border-color: #FFBD59;
+    }
+
+    .btnmasuk a:hover{
+      color: white;
+    }
+
+    .tagisiatas {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 109px;
+        margin-bottom: 0px;
+        color: #0B7588;
+    }
+
+    .pagisiatas {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        margin-top: 0px;
+        padding-top: 0px;
+        color: #0B7588;
+    }
+
+    .bawah {
+        margin-top: 120px;
+    }
+
+    .tagisibawah {
+        color: #0B7588;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .pagisibawah {
+        color: #0B7588;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .btnmulai {
+        background-color: #fda92b;
+        color: white;
+    }
+
+    
+    .btnmulai a{
+        color: white;
+      }
+       
+      .btnmulai:hover {
+        background-color: #fda92b; 
+        color: white;
+        border-color: #FFBD59;
+      }
+  
+      .btnmulai a:hover{
+        color: white;
+      }
+
+      .tagjudul {
+        font-size: 48px;
+    font-weight: 700;
+    color: #254B52;
+    padding-bottom: 30px;
+
+      }
+
+      .deskripsi {
+        font-size: 17px;
+        font-weight: 500;
+        color: #254B52;
+    
+    text-align: justify;
+    margin-top: 5px;
+      }
+      
+      .tagline {
+       font-size: 20px;
+       font-weight: 700;
+       color: #fda92b;
+      padding-top: 0px;
+
+      
+      }
+
+      .bawah {
+        margin-top: 0px;
+      }
+
+      .list li {
+        list-style-type: square;
+      }
+
+      .btnmulai {
+        margin-top: 20px;
+      }
+
+      
+/* footer */
+#footer {
+  background:rgba(171, 219, 227);
+padding-top: 20px;
+}
+
+.tulfooter {
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}

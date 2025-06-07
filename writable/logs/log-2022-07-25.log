@@ -1,0 +1,69 @@
+CRITICAL - 2022-07-25 23:15:46 --> Undefined property: App\Controllers\Riwayat::$anak
+in APPPATH\Controllers\Riwayat.php on line 36.
+ 1 APPPATH\Controllers\Riwayat.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Riwayat::$anak', 'APPPATH\\Controllers\\Riwayat.php', 36, [...])
+ 2 APPPATH\Controllers\Riwayat.php(23): App\Controllers\Riwayat->pilihAnak('1')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->index('1')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 23:16:06 --> Undefined variable: data
+in APPPATH\Views\profil.php on line 63.
+ 1 APPPATH\Views\profil.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\profil.php', 63, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\Riwayat.php(30): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 23:19:08 --> Undefined variable: data
+in APPPATH\Views\profil.php on line 63.
+ 1 APPPATH\Views\profil.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\profil.php', 63, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\Riwayat.php(30): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 23:19:14 --> Undefined variable: data
+in APPPATH\Views\profil.php on line 63.
+ 1 APPPATH\Views\profil.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\profil.php', 63, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\Riwayat.php(30): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->index('6')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 23:31:47 --> Undefined variable: d
+in APPPATH\Views\riwayat.php on line 16.
+ 1 APPPATH\Views\riwayat.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: d', 'APPPATH\\Views\\riwayat.php', 16, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat', [], true)
+ 5 APPPATH\Controllers\Riwayat.php(29): view('riwayat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 23:32:17 --> Undefined index: hasil
+in APPPATH\Controllers\Riwayat.php on line 54.
+ 1 APPPATH\Controllers\Riwayat.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: hasil', 'APPPATH\\Controllers\\Riwayat.php', 54, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('41')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 23:33:25 --> preg_match_all() expects parameter 2 to be string, array given
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 16373.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match_all() expects parameter 2 to be string, array given', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 16373, [...])
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(16373): preg_match_all('/<cssarray>([^\\<]*?)<\\/cssarray>/is', [...], [])
+ 3 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17343): TCPDF->getHtmlDomArray([...])
+ 4 APPPATH\Controllers\Riwayat.php(74): TCPDF->writeHTML([...], true, false, true, false, 'ROOTPATH\\public')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('41')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

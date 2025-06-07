@@ -1,0 +1,176 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(246, 255, 255);
+  }
+
+  /* Bagian Navbar */
+
+  .logonav {
+    margin-left: 0px;
+    padding: 0px;
+    height: 30px;
+    width: 150px;
+  }
+  
+  .navbar {
+    z-index: 3;
+    background-color: rgba(171, 219, 227);
+  }
+  
+  .kontak  {
+    float: right;
+  }
+  
+  
+  .btnmasuk{
+    background-color: #FFBD59;
+    font-weight: 500;
+    border-color: #FFBD59;
+    border-radius: 5px;
+    padding: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    z-index: 3;  
+  }
+  
+  .btnmasuk a {color: white;}
+     
+    .btnmasuk:hover {
+      background-color: #fda92b; 
+      color: white;
+      border-color: #FFBD59;
+    }
+
+
+     .tagvisi {
+    padding-top: 30px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        color: #0B7588;
+        
+         }
+        
+
+         .tagcarakerja{
+          padding-top: 30px;
+              font-style: normal;
+              font-weight: 700;
+              font-size: 40px;
+              color: #0B7588;
+              margin-bottom: 30px;
+              
+               }
+
+               .cardcarakerja {
+                width: 100%;
+                height: 100%;
+                border-radius: 10px;
+                background-color: white;
+              
+                box-shadow: 0 0 7px 3px rgba(0,0,0, 0.05);
+              }
+
+         .isivisi{
+        
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.2;
+        text-align: justify;
+        color: #0B7588;
+        margin-top: 20px;
+         }
+        
+         .isivisi2{
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+margin-bottom: 30px;
+          text-align: justify;
+        color: #0B7588;
+         }
+        
+         
+.card {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0,0,0, 0.05);
+}
+
+.circle-icon {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.card h3 {
+  color: #0b7588;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.card p {
+  color: #254B52;
+  font-size: 14px;
+  font-weight: 500px;
+}
+
+/* hover */
+
+.card:hover {
+
+
+  border-radius: 10px;
+  background-color: rgba(171, 219, 227);
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0,0,0, 0.05);
+}
+
+.circle-icon:hover {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.card h3:hover {
+  color: #0b7588;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.card p:hover {
+  color: #254B52;
+  font-size: 14px;
+}
+
+
+.isicarakerja {
+
+font-weight: 500;
+font-size: 18px;
+text-align: justify;
+color: #0B7588;
+
+}
+
+
+  
+/* footer */
+#footer {
+  background:rgba(171, 219, 227);
+bottom: 0;
+width: 100%;
+}
+
+.tulfooter {
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}

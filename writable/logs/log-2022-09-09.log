@@ -1,0 +1,38 @@
+CRITICAL - 2022-09-09 11:39:07 --> Undefined property: App\Controllers\Admin\Products::$data
+in APPPATH\Controllers\Admin\Products.php on line 39.
+ 1 APPPATH\Controllers\Admin\Products.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin\\Products::$data', 'APPPATH\\Controllers\\Admin\\Products.php', 39, [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Products->create()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-09 11:48:59 --> Undefined variable: session
+in APPPATH\Views\admin\shared\flash_message.php on line 12.
+ 1 APPPATH\Views\admin\shared\flash_message.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'APPPATH\\Views\\admin\\shared\\flash_message.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\shared\\flash_message.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/shared/flash_message', [], true)
+ 5 APPPATH\Views\admin\products\create.php(33): view('admin/shared/flash_message')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\products\\create.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/products/create', [], true)
+ 9 APPPATH\Controllers\Admin\Products.php(39): view('admin/products/create', [...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Products->create()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-09 11:50:36 --> Undefined variable: currentAdminSubMenu
+in APPPATH\Views\admin\shared\sidebar.php on line 25.
+ 1 APPPATH\Views\admin\shared\sidebar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: currentAdminSubMenu', 'APPPATH\\Views\\admin\\shared\\sidebar.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\shared\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('admin/shared/sidebar', null, true)
+ 5 APPPATH\Views\admin\layout.php(39): CodeIgniter\View\View->include('admin/shared/sidebar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\layout.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/layout', [], true)
+ 9 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/products/create', [], true)
+10 APPPATH\Controllers\Admin\Products.php(40): view('admin/products/create', [...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Products->create()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

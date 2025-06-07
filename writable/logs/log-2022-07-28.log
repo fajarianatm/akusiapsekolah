@@ -1,0 +1,51 @@
+ERROR - 2022-07-28 00:07:42 --> Email: sendWithSmtp throwed fsockopen(): SSL: An existing connection was forcibly closed by the remote host.
+
+CRITICAL - 2022-07-28 00:07:42 --> Undefined variable: css
+in APPPATH\Views\layout\header.php on line 11.
+ 1 APPPATH\Views\layout\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: css', 'APPPATH\\Views\\layout\\header.php', 11, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\profil.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profil.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('profil', [], true)
+ 9 APPPATH\Controllers\Riwayat.php(178): view('profil')
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->kirimHasil('24')
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 01:50:39 --> Undefined index: cols
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17071.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17071): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: cols', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 17071, [...])
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17343): TCPDF->getHtmlDomArray('<span style="font-size:0"><br /></span> <img src="img/logo.png" style="height: 250px;"><span><marker style="font-size:0"/></span>&nbsp; <table cellpadding="1" cellspacing="1" border="1" style="text-align:center;"><tr><td><img src="images/logo_example.png" border="0" height="41" width="41" /><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="text-align:left;"><td><img src="images/logo_example.png" border="0" height="41" width="41" align="top" /><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td></tr></table>')
+ 3 APPPATH\Controllers\Riwayat.php(98): TCPDF->writeHTML('
+            <img src="img/logo.png" style="height: 250px;">
+            <table cellpadding="1" cellspacing="1" border="1" style="text-align:center;">
+            <tr><td><img src="images/logo_example.png" border="0" height="41" width="41" /></td>
+            <td style="text-align:left;"><td><img src="images/logo_example.png" border="0" height="41" width="41" align="top" /></td>
+            </tr>
+
+            </table>
+            ', true, false, true, false, 'ROOTPATH\\public')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('24')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 01:52:11 --> Undefined index: cols
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17071.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17071): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: cols', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 17071, [...])
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17343): TCPDF->getHtmlDomArray('<span style="font-size:0"><br /></span> <img src="img/logo.png" style="height: 250px;"><span><marker style="font-size:0"/></span>&nbsp; <table cellpadding="1" cellspacing="1" border="1" style="text-align:center;"><tr><td><img src="images/logo_example.png" border="0" height="41" width="41" /><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="text-align:left;"><td><img src="images/logo_example.png" border="0" height="41" width="41" align="top" /><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td></tr></table>')
+ 3 APPPATH\Controllers\Riwayat.php(98): TCPDF->writeHTML('
+            <img src="img/logo.png" style="height: 250px;">
+            <table cellpadding="1" cellspacing="1" border="1" style="text-align:center;">
+                <tr>
+                    <td><img src="images/logo_example.png" border="0" height="41" width="41" /></td>
+                    <td style="text-align:left;"><td><img src="images/logo_example.png" border="0" height="41" width="41" align="top" /></td>
+                </tr>
+            </table>
+            ', true, false, true, false, 'ROOTPATH\\public')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('24')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

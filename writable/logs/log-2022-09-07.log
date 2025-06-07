@@ -1,0 +1,179 @@
+CRITICAL - 2022-09-07 03:14:24 --> Undefined index: isi_text
+in APPPATH\Controllers\Blog.php on line 22.
+ 1 APPPATH\Controllers\Blog.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: isi_text', 'APPPATH\\Controllers\\Blog.php', 22, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 03:20:09 --> Undefined index: isi_text
+in APPPATH\Controllers\Blog.php on line 22.
+ 1 APPPATH\Controllers\Blog.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: isi_text', 'APPPATH\\Controllers\\Blog.php', 22, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 03:20:40 --> Undefined index: isi_teks
+in APPPATH\Controllers\Blog.php on line 22.
+ 1 APPPATH\Controllers\Blog.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: isi_teks', 'APPPATH\\Controllers\\Blog.php', 22, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 03:25:33 --> Undefined index: data
+in APPPATH\Controllers\Blog.php on line 20.
+ 1 APPPATH\Controllers\Blog.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: data', 'APPPATH\\Controllers\\Blog.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 03:34:09 --> Undefined variable: datacut
+in APPPATH\Views\blog.php on line 28.
+ 1 APPPATH\Views\blog.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datacut', 'APPPATH\\Views\\blog.php', 28, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog', [], true)
+ 5 APPPATH\Controllers\Blog.php(41): view('blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 03:34:26 --> Undefined variable: datacut
+in APPPATH\Views\blog.php on line 28.
+ 1 APPPATH\Views\blog.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datacut', 'APPPATH\\Views\\blog.php', 28, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog', [], true)
+ 5 APPPATH\Controllers\Blog.php(41): view('blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 03:47:54 --> Undefined variable: datacut
+in APPPATH\Views\blog.php on line 28.
+ 1 APPPATH\Views\blog.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datacut', 'APPPATH\\Views\\blog.php', 28, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog', [], true)
+ 5 APPPATH\Controllers\Blog.php(41): view('blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 03:48:34 --> Undefined variable: datacut
+in APPPATH\Views\blog.php on line 28.
+ 1 APPPATH\Views\blog.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datacut', 'APPPATH\\Views\\blog.php', 28, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog', [], true)
+ 5 APPPATH\Controllers\Blog.php(41): view('blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 21:24:55 --> Undefined variable: b
+in APPPATH\Views\blog.php on line 21.
+ 1 APPPATH\Views\blog.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: b', 'APPPATH\\Views\\blog.php', 21, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog', [], true)
+ 5 APPPATH\Controllers\Blog.php(41): view('blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 21:30:23 --> Undefined variable: b
+in APPPATH\Views\blog.php on line 21.
+ 1 APPPATH\Views\blog.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: b', 'APPPATH\\Views\\blog.php', 21, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog', [], true)
+ 5 APPPATH\Controllers\Blog.php(41): view('blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 21:33:40 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\Blog:detail/$1
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Blog:detail/$1')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('detailblog/data-2')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('detailblog/data-2')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 21:34:31 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\Blog:detail/$1
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Blog:detail/$1')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('detailblog/data-1')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('detailblog/data-1')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 21:35:53 --> Undefined property: App\Controllers\Blog::$bakeModel
+in APPPATH\Controllers\Blog.php on line 48.
+ 1 APPPATH\Controllers\Blog.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Blog::$bakeModel', 'APPPATH\\Controllers\\Blog.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->detail('data-1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 21:39:25 --> Call to undefined method App\Models\blogModel::getBlog
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Blog.php(48): CodeIgniter\Model->__call('getBlog', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->detail('data-1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 21:40:25 --> Call to undefined method App\Models\blogModel::getBlog
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Blog.php(48): CodeIgniter\Model->__call('getBlog', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->detail('data-1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 22:33:43 --> Invalid file: lite/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('lite/index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('lite/index', [], true)
+ 3 APPPATH\Controllers\Home.php(135): view('lite/index')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->test()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 22:34:09 --> Invalid file: lite/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('lite/index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('lite/index.php', [], true)
+ 3 APPPATH\Controllers\Home.php(135): view('lite/index.php')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->test()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 23:13:56 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\admin/dashboard::index
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\admin/dashboard::index')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('admin/dashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 23:17:37 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\admin/dashboard::index
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\admin/dashboard::index')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('admin/dashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 23:17:56 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\admin/dashboard::index
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\admin/dashboard::index')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('admin/dashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 23:38:47 --> Class 'App\Models\bakeModel' not found
+in APPPATH\Controllers\Admin\Products.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Admin\Products->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

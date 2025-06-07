@@ -1,0 +1,140 @@
+CRITICAL - 2022-07-14 00:10:42 --> Invalid file: page_print.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page_print.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page_print', [], true)
+ 3 APPPATH\Controllers\Anak.php(265): view('page_print', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Anak->print('1')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anak))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 09:29:05 --> Undefined property: App\Controllers\Test::$anakModel
+in APPPATH\Controllers\Test.php on line 27.
+ 1 APPPATH\Controllers\Test.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Test::$anakModel', 'APPPATH\\Controllers\\Test.php', 27, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Test->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 09:30:15 --> Invalid file: try/page5_test.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('try/page5_test.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('try/page5_test', [], true)
+ 3 APPPATH\Controllers\Test.php(31): view('try/page5_test', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Test->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 09:33:42 --> Invalid file: dataAnak.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dataAnak.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dataAnak', [], true)
+ 3 APPPATH\Controllers\Test.php(31): view('dataAnak', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Test->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 09:33:59 --> Invalid file: dataanak.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dataanak.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dataanak', [], true)
+ 3 APPPATH\Controllers\Test.php(31): view('dataanak', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Test->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 09:53:04 --> Undefined variable: bag1
+in APPPATH\Views\tes1.php on line 72.
+ 1 APPPATH\Views\tes1.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: bag1', 'APPPATH\\Views\\tes1.php', 72, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tes1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('tes1', [], true)
+ 5 APPPATH\Controllers\Home.php(31): view('tes1')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->tes1()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 09:53:51 --> Undefined variable: bag1
+in APPPATH\Views\tes1.php on line 72.
+ 1 APPPATH\Views\tes1.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: bag1', 'APPPATH\\Views\\tes1.php', 72, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tes1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('tes1', [], true)
+ 5 APPPATH\Controllers\Home.php(31): view('tes1')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->tes1()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 09:53:53 --> Undefined variable: bag1
+in APPPATH\Views\tes1.php on line 72.
+ 1 APPPATH\Views\tes1.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: bag1', 'APPPATH\\Views\\tes1.php', 72, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tes1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('tes1', [], true)
+ 5 APPPATH\Controllers\Home.php(31): view('tes1')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->tes1()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-14 10:19:55 --> Column 'id_anak' cannot be null
+CRITICAL - 2022-07-14 10:19:55 --> Column 'id_anak' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `riwayat` (`id_anak`, `id_test`, `list_jawaban`, `hasil`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'4,4\', 8, \'2022-07-14 10:19:55\', \'2022-07-14 10:19:55\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `riwayat` (`id_anak`, `id_test`, `list_jawaban`, `hasil`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'4,4\', 8, \'2022-07-14 10:19:55\', \'2022-07-14 10:19:55\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `riwayat` (`id_anak`, `id_test`, `list_jawaban`, `hasil`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'4,4\', 8, \'2022-07-14 10:19:55\', \'2022-07-14 10:19:55\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `riwayat` (`id_anak`, `id_test`, `list_jawaban`, `hasil`, `created_at`, `updated_at`) VALUES (:id_anak:, :id_test:, :list_jawaban:, :hasil:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Test.php(91): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Test->collectTest()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-14 10:21:19 --> Column 'id_anak' cannot be null
+CRITICAL - 2022-07-14 10:21:19 --> Column 'id_anak' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `riwayat` (`id_anak`, `id_test`, `list_jawaban`, `hasil`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'4,4\', 8, \'2022-07-14 10:21:19\', \'2022-07-14 10:21:19\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `riwayat` (`id_anak`, `id_test`, `list_jawaban`, `hasil`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'4,4\', 8, \'2022-07-14 10:21:19\', \'2022-07-14 10:21:19\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `riwayat` (`id_anak`, `id_test`, `list_jawaban`, `hasil`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'4,4\', 8, \'2022-07-14 10:21:19\', \'2022-07-14 10:21:19\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `riwayat` (`id_anak`, `id_test`, `list_jawaban`, `hasil`, `created_at`, `updated_at`) VALUES (:id_anak:, :id_test:, :list_jawaban:, :hasil:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Test.php(92): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Test->collectTest()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-14 10:21:52 --> Column 'id_test' cannot be null
+CRITICAL - 2022-07-14 10:21:52 --> Column 'id_test' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `riwayat` (`id_anak`, `id_test`, `list_jawaban`, `hasil`, `created_at`, `updated_at`) VALUES (\'1\', NULL, \'4,4\', 8, \'2022-07-14 10:21:52\', \'2022-07-14 10:21:52\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `riwayat` (`id_anak`, `id_test`, `list_jawaban`, `hasil`, `created_at`, `updated_at`) VALUES (\'1\', NULL, \'4,4\', 8, \'2022-07-14 10:21:52\', \'2022-07-14 10:21:52\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `riwayat` (`id_anak`, `id_test`, `list_jawaban`, `hasil`, `created_at`, `updated_at`) VALUES (\'1\', NULL, \'4,4\', 8, \'2022-07-14 10:21:52\', \'2022-07-14 10:21:52\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `riwayat` (`id_anak`, `id_test`, `list_jawaban`, `hasil`, `created_at`, `updated_at`) VALUES (:id_anak:, :id_test:, :list_jawaban:, :hasil:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Test.php(92): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Test->collectTest()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-14 10:22:15 --> Column 'id_test' cannot be null
+CRITICAL - 2022-07-14 10:22:15 --> Column 'id_test' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `riwayat` (`id_anak`, `id_test`, `list_jawaban`, `hasil`, `created_at`, `updated_at`) VALUES (\'1\', NULL, \'4,4\', 8, \'2022-07-14 10:22:15\', \'2022-07-14 10:22:15\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `riwayat` (`id_anak`, `id_test`, `list_jawaban`, `hasil`, `created_at`, `updated_at`) VALUES (\'1\', NULL, \'4,4\', 8, \'2022-07-14 10:22:15\', \'2022-07-14 10:22:15\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `riwayat` (`id_anak`, `id_test`, `list_jawaban`, `hasil`, `created_at`, `updated_at`) VALUES (\'1\', NULL, \'4,4\', 8, \'2022-07-14 10:22:15\', \'2022-07-14 10:22:15\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `riwayat` (`id_anak`, `id_test`, `list_jawaban`, `hasil`, `created_at`, `updated_at`) VALUES (:id_anak:, :id_test:, :list_jawaban:, :hasil:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Test.php(92): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Test->collectTest()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

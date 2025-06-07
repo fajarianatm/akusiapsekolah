@@ -1,0 +1,169 @@
+CRITICAL - 2022-08-05 00:25:51 --> Undefined variable: data
+in APPPATH\Views\page\invoice3.php on line 7.
+ 1 APPPATH\Views\page\invoice3.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\page\\invoice3.php', 7, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\page\\invoice3.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/invoice3', [], true)
+ 5 APPPATH\Controllers\Riwayat.php(838): view('page/invoice3', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('2')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-05 00:27:36 --> Undefined index: abu-abu
+in APPPATH\Controllers\Riwayat.php on line 506.
+ 1 APPPATH\Controllers\Riwayat.php(506): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: abu-abu', 'APPPATH\\Controllers\\Riwayat.php', 506, [...])
+ 2 APPPATH\Controllers\Riwayat.php(769): App\Controllers\Riwayat->isi_html(1, 'abu-abu', 'abu-abu', 'abu-abu', 'abu-abu', 'Ana')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('2')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-05 00:28:35 --> Undefined index: abu-abu
+in APPPATH\Controllers\Riwayat.php on line 506.
+ 1 APPPATH\Controllers\Riwayat.php(506): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: abu-abu', 'APPPATH\\Controllers\\Riwayat.php', 506, [...])
+ 2 APPPATH\Controllers\Riwayat.php(769): App\Controllers\Riwayat->isi_html(1, 'abu-abu', 'abu-abu', 'abu-abu', 'abu-abu', 'Ana')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('2')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-05 01:01:26 --> Undefined index: referensi
+in APPPATH\Controllers\Riwayat.php on line 557.
+ 1 APPPATH\Controllers\Riwayat.php(557): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: referensi', 'APPPATH\\Controllers\\Riwayat.php', 557, [...])
+ 2 APPPATH\Controllers\Riwayat.php(783): App\Controllers\Riwayat->isi_html(1, 'abu-abu', 'abu-abu', 'abu-abu', 'putih', 'Ana')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('2')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-05 01:01:56 --> Undefined index: area1
+in APPPATH\Controllers\Riwayat.php on line 557.
+ 1 APPPATH\Controllers\Riwayat.php(557): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: area1', 'APPPATH\\Controllers\\Riwayat.php', 557, [...])
+ 2 APPPATH\Controllers\Riwayat.php(783): App\Controllers\Riwayat->isi_html(1, 'abu-abu', 'abu-abu', 'abu-abu', 'putih', 'Ana')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('2')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-05 01:16:33 --> Undefined index: pendengaran
+in APPPATH\Views\page\invoice2.php on line 49.
+ 1 APPPATH\Views\page\invoice2.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: pendengaran', 'APPPATH\\Views\\page\\invoice2.php', 49, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\page\\invoice2.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/invoice2', [], true)
+ 5 APPPATH\Controllers\Riwayat.php(860): view('page/invoice2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('2')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-05 03:58:11 --> A non well formed numeric value encountered
+in APPPATH\Views\riwayat.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Views\\riwayat.php', 25, [...])
+ 2 APPPATH\Views\riwayat.php(25): date('d m Y', '2022-08-01 22:56:56')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat', [], true)
+ 6 APPPATH\Controllers\Riwayat.php(32): view('riwayat', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-05 03:58:50 --> DateTime::__construct() expects parameter 2 to be DateTimeZone, string given
+in APPPATH\Views\riwayat.php on line 25.
+ 1 APPPATH\Views\riwayat.php(25): DateTime->__construct('d m Y', '2022-08-01 22:56:56')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat', [], true)
+ 5 APPPATH\Controllers\Riwayat.php(32): view('riwayat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-05 04:18:35 --> Undefined index: soal11
+in APPPATH\Controllers\Test.php on line 109.
+ 1 APPPATH\Controllers\Test.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: soal11', 'APPPATH\\Controllers\\Test.php', 109, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Test->collectTest()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-05 04:54:41 --> Function name must be a string
+in APPPATH\Views\tes1.php on line 57.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('tes1', [], true)
+ 4 APPPATH\Controllers\Test.php(95): view('tes1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Test->startTest()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-05 04:55:47 --> Function name must be a string
+in APPPATH\Views\tes1.php on line 57.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('tes1', [], true)
+ 4 APPPATH\Controllers\Test.php(95): view('tes1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Test->startTest()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-05 04:56:02 --> Function name must be a string
+in APPPATH\Views\tes1.php on line 57.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('tes1', [], true)
+ 4 APPPATH\Controllers\Test.php(95): view('tes1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Test->startTest()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-05 05:02:48 --> Undefined index: soal11
+in APPPATH\Views\tes1.php on line 57.
+ 1 APPPATH\Views\tes1.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: soal11', 'APPPATH\\Views\\tes1.php', 57, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tes1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('tes1', [], true)
+ 5 APPPATH\Controllers\Test.php(95): view('tes1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Test->startTest()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-05 05:07:15 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH\Views\tes1.php on line 57.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-05 05:08:22 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH\Views\tes1.php on line 57.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-05 05:09:45 --> Undefined index: soal11
+in APPPATH\Views\tes1.php on line 57.
+ 1 APPPATH\Views\tes1.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: soal11', 'APPPATH\\Views\\tes1.php', 57, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tes1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('tes1', [], true)
+ 5 APPPATH\Controllers\Test.php(95): view('tes1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Test->startTest()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-05 05:15:11 --> Undefined index: soal11
+in APPPATH\Views\tes1.php on line 57.
+ 1 APPPATH\Views\tes1.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: soal11', 'APPPATH\\Views\\tes1.php', 57, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tes1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('tes1', [], true)
+ 5 APPPATH\Controllers\Test.php(95): view('tes1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Test->startTest()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-05 23:37:50 --> Undefined index: abu-abu
+in APPPATH\Controllers\Riwayat.php on line 533.
+ 1 APPPATH\Controllers\Riwayat.php(533): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: abu-abu', 'APPPATH\\Controllers\\Riwayat.php', 533, [...])
+ 2 APPPATH\Controllers\Riwayat.php(878): App\Controllers\Riwayat->isi_html(1, 'hitam', 'hitam', 'hitam', 'abu-abu', 'Ana')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('2')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-05 23:58:16 --> Undefined index: isi_html_1
+in APPPATH\Controllers\Riwayat.php on line 294.
+ 1 APPPATH\Controllers\Riwayat.php(294): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: isi_html_1', 'APPPATH\\Controllers\\Riwayat.php', 294, [...])
+ 2 APPPATH\Controllers\Riwayat.php(879): App\Controllers\Riwayat->isi_html(1, 'hitam', 'hitam', 'hitam', 'hitam', 'Ana')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('2')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,58 @@
+CRITICAL - 2022-09-10 03:00:23 --> Undefined variable: session
+in APPPATH\Views\admin\shared\flash_message.php on line 12.
+ 1 APPPATH\Views\admin\shared\flash_message.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'APPPATH\\Views\\admin\\shared\\flash_message.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\shared\\flash_message.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/shared/flash_message', [], true)
+ 5 APPPATH\Views\admin\products\edit.php(33): view('admin/shared/flash_message')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\products\\edit.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/products/edit', [], true)
+ 9 APPPATH\Controllers\Admin\Products.php(127): view('admin/products/edit', [...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Products->edit('booom')
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 03:01:00 --> Undefined index: picture
+in APPPATH\Views\admin\products\edit.php on line 52.
+ 1 APPPATH\Views\admin\products\edit.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: picture', 'APPPATH\\Views\\admin\\products\\edit.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\products\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/products/edit', [], true)
+ 5 APPPATH\Controllers\Admin\Products.php(130): view('admin/products/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Products->edit('booom')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 03:11:46 --> Call to undefined method App\Models\blogModel::getbake
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Admin\Products.php(136): CodeIgniter\Model->__call('getbake', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Products->update('9')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 03:16:51 --> Undefined index: picture
+in APPPATH\Controllers\Admin\Products.php on line 112.
+ 1 APPPATH\Controllers\Admin\Products.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: picture', 'APPPATH\\Controllers\\Admin\\Products.php', 112, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Products->delete('5')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 03:24:53 --> Undefined property: App\Controllers\Admin\Dashboard::$blogModel
+in APPPATH\Controllers\Admin\Dashboard.php on line 14.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin\\Dashboard::$blogModel', 'APPPATH\\Controllers\\Admin\\Dashboard.php', 14, [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-10 03:25:39 --> Undefined variable: data
+in APPPATH\Views\admin\dashboard\index.php on line 31.
+ 1 APPPATH\Views\admin\dashboard\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\admin\\dashboard\\index.php', 31, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(24): view('admin/dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

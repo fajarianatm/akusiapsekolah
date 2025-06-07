@@ -1,0 +1,120 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(246, 255, 255);
+  }
+  
+  /* seluruh component */
+  * {
+    z-index: 2;
+  }
+  /* Bagian Navbar */
+  
+  .navmenu{
+    font-weight: 500;
+    color: #0B7588;
+  }
+  
+  .navmenu:hover {
+    color: white;
+  }
+  
+  .logonav {
+    margin-left: 0px;
+    padding: 0px;
+    height: 30px;
+    width: 150px;
+  }
+  
+  .listbgmn {
+    height: 10px;
+    width: 30px;
+  }
+  
+  
+  .nav-color {
+    background-color: rgba(171, 219, 227);
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .bg-transparent {
+    transition: all ease-in 0.3s;
+  }
+  
+  .navbar {
+    z-index: 3;
+    background:rgba(171, 219, 227);
+  }
+  
+  .kontak  {
+    float: right;
+  }
+  
+  
+  
+  .btnmasuk{
+    background-color: #FFBD59;
+    font-weight: 500;
+    border-color: #FFBD59;
+    border-radius: 5px;
+    padding: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    z-index: 3;  
+  }
+  
+  .btnmasuk a {color: white;}
+     
+    .btnmasuk:hover {
+      background-color: #fda92b; 
+      color: white;
+      border-color: #FFBD59;
+    }
+
+
+    .tagline {
+        color: #254B52;
+        font-size: 50px;
+        font-weight: 700px; 
+    }
+
+    .btnhasil {
+        border: none;
+        margin-top: 30px;
+        background-color: #FFBD59;
+        
+    }
+
+    .btnhasil:hover {
+        border: none;
+        margin-top: 30px;
+        background-color: #fda92b;
+        
+    }
+
+    .btnhasil a {
+        color: white;
+        font-weight: 500;
+    }
+
+    .btnhasil a:hover {
+        color: white;
+        font-weight: 500;
+    }
+
+
+
+    /* footer */
+    #footer {
+        background:rgba(171, 219, 227);
+      padding-top: 20px;
+      position: absolute;
+      bottom: 0px;
+      }
+      
+      .tulfooter {
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+      }
+  
+  

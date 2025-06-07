@@ -1,0 +1,55 @@
+CRITICAL - 2022-07-21 22:05:37 --> "j-M-Y" is not a valid datetime format
+in SYSTEMPATH\I18n\Time.php on line 242.
+ 1 SYSTEMPATH\I18n\Time.php(242): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('j-M-Y')
+ 2 APPPATH\Controllers\Test.php(68): CodeIgniter\I18n\Time::createFromFormat('j-M-Y', '2020-01-01')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Test->startTest()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 22:06:06 --> "Y-m-d H:i:s" is not a valid datetime format
+in SYSTEMPATH\I18n\Time.php on line 242.
+ 1 SYSTEMPATH\I18n\Time.php(242): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-m-d H:i:s')
+ 2 APPPATH\Controllers\Test.php(68): CodeIgniter\I18n\Time::createFromFormat('Y-m-d H:i:s', '2020-01-01')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Test->startTest()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 22:07:24 --> Undefined variable: soalA
+in APPPATH\Controllers\Test.php on line 81.
+ 1 APPPATH\Controllers\Test.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: soalA', 'APPPATH\\Controllers\\Test.php', 81, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Test->startTest()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 22:07:36 --> Undefined variable: soalA
+in APPPATH\Controllers\Test.php on line 81.
+ 1 APPPATH\Controllers\Test.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: soalA', 'APPPATH\\Controllers\\Test.php', 81, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Test->startTest()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 22:17:42 --> Undefined variable: soalA
+in APPPATH\Controllers\Test.php on line 83.
+ 1 APPPATH\Controllers\Test.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: soalA', 'APPPATH\\Controllers\\Test.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Test->startTest()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 22:17:45 --> Undefined variable: soalA
+in APPPATH\Controllers\Test.php on line 83.
+ 1 APPPATH\Controllers\Test.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: soalA', 'APPPATH\\Controllers\\Test.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Test->startTest()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 22:18:32 --> Undefined variable: bag3
+in APPPATH\Views\tes1.php on line 64.
+ 1 APPPATH\Views\tes1.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: bag3', 'APPPATH\\Views\\tes1.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tes1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('tes1', [], true)
+ 5 APPPATH\Controllers\Test.php(90): view('tes1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Test->startTest()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

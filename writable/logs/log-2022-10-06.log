@@ -1,0 +1,21 @@
+CRITICAL - 2022-10-06 02:49:35 --> Undefined variable: file
+in APPPATH\Controllers\Admin\Products.php on line 225.
+ 1 APPPATH\Controllers\Admin\Products.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: file', 'APPPATH\\Controllers\\Admin\\Products.php', 225, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Products->uploadImages()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-06 02:53:38 --> Undefined variable: file
+in APPPATH\Controllers\Admin\Products.php on line 225.
+ 1 APPPATH\Controllers\Admin\Products.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: file', 'APPPATH\\Controllers\\Admin\\Products.php', 225, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Products->uploadImages()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-06 02:54:55 --> Undefined variable: file
+in APPPATH\Controllers\Admin\Products.php on line 225.
+ 1 APPPATH\Controllers\Admin\Products.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: file', 'APPPATH\\Controllers\\Admin\\Products.php', 225, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Products->uploadImages()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

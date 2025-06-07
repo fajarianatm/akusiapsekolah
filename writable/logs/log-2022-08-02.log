@@ -1,0 +1,64 @@
+CRITICAL - 2022-08-02 04:31:10 --> Undefined variable: type
+in APPPATH\Controllers\Riwayat.php on line 500.
+ 1 APPPATH\Controllers\Riwayat.php(500): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: type', 'APPPATH\\Controllers\\Riwayat.php', 500, [...])
+ 2 APPPATH\Controllers\Riwayat.php(546): App\Controllers\Riwayat->isi_html(1, 'abu-abu', 'hitam', 'putih', 'abu-abu')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('2')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-02 04:33:23 --> Undefined variable: type
+in APPPATH\Controllers\Riwayat.php on line 503.
+ 1 APPPATH\Controllers\Riwayat.php(503): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: type', 'APPPATH\\Controllers\\Riwayat.php', 503, [...])
+ 2 APPPATH\Controllers\Riwayat.php(549): App\Controllers\Riwayat->isi_html(1, 'abu-abu', 'hitam', 'putih', 'abu-abu')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('2')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-02 04:33:33 --> Undefined variable: type
+in APPPATH\Controllers\Riwayat.php on line 503.
+ 1 APPPATH\Controllers\Riwayat.php(503): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: type', 'APPPATH\\Controllers\\Riwayat.php', 503, [...])
+ 2 APPPATH\Controllers\Riwayat.php(549): App\Controllers\Riwayat->isi_html(1, 'abu-abu', 'hitam', 'putih', 'abu-abu')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('2')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-02 04:34:18 --> Undefined variable: type2
+in APPPATH\Controllers\Riwayat.php on line 506.
+ 1 APPPATH\Controllers\Riwayat.php(506): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: type2', 'APPPATH\\Controllers\\Riwayat.php', 506, [...])
+ 2 APPPATH\Controllers\Riwayat.php(547): App\Controllers\Riwayat->isi_html(1, 'abu-abu', 'hitam', 'putih', 'abu-abu')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('2')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-02 04:34:42 --> Undefined variable: ung
+in APPPATH\Controllers\Riwayat.php on line 519.
+ 1 APPPATH\Controllers\Riwayat.php(519): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: ung', 'APPPATH\\Controllers\\Riwayat.php', 519, [...])
+ 2 APPPATH\Controllers\Riwayat.php(549): App\Controllers\Riwayat->isi_html(1, 'abu-abu', 'hitam', 'putih', 'abu-abu')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('2')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-02 04:35:57 --> Undefined variable: tamb1
+in APPPATH\Controllers\Riwayat.php on line 528.
+ 1 APPPATH\Controllers\Riwayat.php(528): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: tamb1', 'APPPATH\\Controllers\\Riwayat.php', 528, [...])
+ 2 APPPATH\Controllers\Riwayat.php(552): App\Controllers\Riwayat->isi_html(1, 'abu-abu', 'hitam', 'putih', 'abu-abu')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('2')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-02 04:36:42 --> Undefined variable: hij
+in APPPATH\Controllers\Riwayat.php on line 531.
+ 1 APPPATH\Controllers\Riwayat.php(531): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: hij', 'APPPATH\\Controllers\\Riwayat.php', 531, [...])
+ 2 APPPATH\Controllers\Riwayat.php(555): App\Controllers\Riwayat->isi_html(1, 'abu-abu', 'hitam', 'putih', 'abu-abu')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('2')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-02 04:39:38 --> Undefined variable: type
+in APPPATH\Controllers\Riwayat.php on line 519.
+ 1 APPPATH\Controllers\Riwayat.php(519): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: type', 'APPPATH\\Controllers\\Riwayat.php', 519, [...])
+ 2 APPPATH\Controllers\Riwayat.php(565): App\Controllers\Riwayat->isi_html(1, 'abu-abu', 'hitam', 'putih', 'abu-abu')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('2')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

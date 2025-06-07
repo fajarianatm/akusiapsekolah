@@ -1,0 +1,94 @@
+CRITICAL - 2022-09-08 03:18:21 --> Call to undefined method App\Models\blogModel::all
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Admin\Products.php(43): CodeIgniter\Model->__call('all', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Products->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 03:25:51 --> Undefined variable: session
+in APPPATH\Views\admin\shared\flash_message.php on line 12.
+ 1 APPPATH\Views\admin\shared\flash_message.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'APPPATH\\Views\\admin\\shared\\flash_message.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\shared\\flash_message.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/shared/flash_message', [], true)
+ 5 APPPATH\Views\admin\products\index.php(41): view('admin/shared/flash_message')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\products\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/products/index', [], true)
+ 9 APPPATH\Controllers\Admin\Products.php(25): view('admin/products/index', [...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Products->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 03:26:54 --> Undefined property: App\Controllers\Admin\Products::$data
+in APPPATH\Controllers\Admin\Products.php on line 23.
+ 1 APPPATH\Controllers\Admin\Products.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin\\Products::$data', 'APPPATH\\Controllers\\Admin\\Products.php', 23, [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Products->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 03:29:16 --> Undefined index: picture
+in APPPATH\Views\admin\products\index.php on line 61.
+ 1 APPPATH\Views\admin\products\index.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: picture', 'APPPATH\\Views\\admin\\products\\index.php', 61, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\products\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/products/index', [], true)
+ 5 APPPATH\Controllers\Admin\Products.php(30): view('admin/products/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Products->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 03:31:17 --> Undefined index: picture
+in APPPATH\Views\admin\products\index.php on line 61.
+ 1 APPPATH\Views\admin\products\index.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: picture', 'APPPATH\\Views\\admin\\products\\index.php', 61, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\products\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/products/index', [], true)
+ 5 APPPATH\Controllers\Admin\Products.php(30): view('admin/products/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Products->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 03:33:39 --> Undefined variable: pager
+in APPPATH\Views\admin\products\index.php on line 85.
+ 1 APPPATH\Views\admin\products\index.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pager', 'APPPATH\\Views\\admin\\products\\index.php', 85, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\products\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/products/index', [], true)
+ 5 APPPATH\Controllers\Admin\Products.php(30): view('admin/products/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Products->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 03:35:04 --> Undefined variable: pager
+in APPPATH\Views\admin\products\index.php on line 85.
+ 1 APPPATH\Views\admin\products\index.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pager', 'APPPATH\\Views\\admin\\products\\index.php', 85, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\products\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/products/index', [], true)
+ 5 APPPATH\Controllers\Admin\Products.php(30): view('admin/products/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Products->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 03:35:05 --> Undefined variable: pager
+in APPPATH\Views\admin\products\index.php on line 85.
+ 1 APPPATH\Views\admin\products\index.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pager', 'APPPATH\\Views\\admin\\products\\index.php', 85, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\products\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/products/index', [], true)
+ 5 APPPATH\Controllers\Admin\Products.php(30): view('admin/products/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Products->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-08 03:36:29 --> Call to a member function links() on null
+in APPPATH\Views\admin\products\index.php on line 85.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/products/index', [], true)
+ 4 APPPATH\Controllers\Admin\Products.php(31): view('admin/products/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Products->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,10 @@
+CRITICAL - 2022-07-07 08:16:45 --> Invalid file: layout/masuk.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/masuk.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/masuk', [], true)
+ 3 APPPATH\Controllers\Home.php(18): view('layout/masuk')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->masuk()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

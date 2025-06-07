@@ -1,0 +1,188 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    /* background-color: rgb(246, 255, 255); */
+    background-color: rgb(246, 255, 255);
+  }
+
+  .logonav {
+    margin-left: 0px;
+    padding: 0px;
+    height: 30px;
+    width: 150px;
+  }
+  
+  .nav-color {
+    background-color: rgba(171, 219, 227);
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .bg-transparent {
+    transition: all ease-in 0.3s;
+  }
+  
+  .navbar {
+    z-index: 3;
+    background-color: rgba(171, 219, 227);
+  }
+  .kontak  {
+    float: right;
+  }
+  
+  
+  .btnmasuk{
+    background-color: #FFBD59;
+    font-weight: 500;
+    border-color: #FFBD59;
+    border-radius: 5px;
+    padding: 6px;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    }
+
+    .btnmasuk a{
+      color: white;
+    }
+     
+    .btnmasuk:hover {
+      background-color: #fda92b; 
+      color: white;
+      border-color: #FFBD59;
+    }
+
+    .btnmasuk a:hover{
+      color: white;
+    }
+
+    
+#layanan {
+    padding: 50px 0;
+  }
+  
+  h2 {
+    font-size: 48px;
+    font-weight: 500;
+    color: #254B52;
+    padding-bottom: 50px;
+  }
+  
+  .card {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0,0,0, 0.05);
+  }
+  
+  .circle-icon {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  .card h3 {
+    color: #0b7588;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .card p {
+    color: #254B52;
+    font-size: 14px;
+    font-weight: 500px;
+  }
+
+  /* hover */
+
+.card:hover {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgba(171, 219, 227);
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0,0,0, 0.05);
+  }
+  
+  .circle-icon:hover {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  .card h3:hover {
+    color: #0b7588;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .card p:hover {
+    color: #254B52;
+    font-size: 14px;
+  }
+
+.tagdata{
+
+        
+        font-style: normal;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 109px;
+margin-bottom: 50px;
+    text-align: center;
+        
+        color: #0B7588;
+}
+
+.tagtambahdata {
+  color: #0B7588;
+}
+
+
+.btn-riwayat{
+  background-color: #FFBD59;
+  font-weight: 500;
+  border-color: #FFBD59;
+  border-radius: 5px;
+  padding: 6px;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  }
+
+  .btn-riwayat a{
+    color: white;
+  }
+   
+  .btn-riwayat:hover {
+    background-color: #fda92b; 
+    color: white;
+    border-color: #FFBD59;
+  }
+
+  .btn-riwayat a:hover{
+    color: white;
+  }
+
+.tagriwayat {
+  font-size: 40px;
+    font-weight: 700;
+    color: #254B52;
+    padding-bottom: 30px;
+}
+
+/* footer */
+#footer {
+  background:rgba(171, 219, 227);
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.tulfooter {
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}

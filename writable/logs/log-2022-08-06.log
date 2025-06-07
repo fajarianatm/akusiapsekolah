@@ -1,0 +1,150 @@
+CRITICAL - 2022-08-06 00:07:46 --> Undefined index: isi_html_3
+in APPPATH\Controllers\Riwayat.php on line 947.
+ 1 APPPATH\Controllers\Riwayat.php(947): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: isi_html_3', 'APPPATH\\Controllers\\Riwayat.php', 947, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('2')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-06 03:22:02 --> Undefined index: namaLengkap
+in APPPATH\Controllers\Riwayat.php on line 953.
+ 1 APPPATH\Controllers\Riwayat.php(953): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: namaLengkap', 'APPPATH\\Controllers\\Riwayat.php', 953, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('2', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-06 03:44:43 --> Email: sendWithSmtp throwed fsockopen(): SSL: An existing connection was forcibly closed by the remote host.
+
+CRITICAL - 2022-08-06 03:44:43 --> unlink(): http does not allow unlinking
+in APPPATH\Controllers\Riwayat.php on line 55.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): http does not allow unlinking', 'APPPATH\\Controllers\\Riwayat.php', 55, [...])
+ 2 APPPATH\Controllers\Riwayat.php(55): unlink('http://akusiapsekolah.test/uploads/hasil%20Tes%20Fajariana%20Muthia%20Hafifia%20Rysman%20Gyto2.pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->kirimHasil('2', '2')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-06 03:46:04 --> Email: sendWithSmtp throwed fsockopen(): SSL: An existing connection was forcibly closed by the remote host.
+
+CRITICAL - 2022-08-06 03:46:04 --> unlink(): http does not allow unlinking
+in APPPATH\Controllers\Riwayat.php on line 55.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): http does not allow unlinking', 'APPPATH\\Controllers\\Riwayat.php', 55, [...])
+ 2 APPPATH\Controllers\Riwayat.php(55): unlink('http://akusiapsekolah.test/uploads/hasil%20Tes%20Fajariana%20Muthia%20Hafifia%20Rysman%20Gyto2.pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->kirimHasil('2', '2')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-06 03:52:33 --> Email: sendWithSmtp throwed fsockopen(): SSL: An existing connection was forcibly closed by the remote host.
+
+CRITICAL - 2022-08-06 03:52:33 --> Undefined variable: css
+in APPPATH\Views\layout\header.php on line 11.
+ 1 APPPATH\Views\layout\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: css', 'APPPATH\\Views\\layout\\header.php', 11, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\profil.php(1): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profil.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('profil', [], true)
+ 9 APPPATH\Controllers\Riwayat.php(57): view('profil')
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->kirimHasil('2', '2')
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-06 03:53:30 --> Email: sendWithSmtp throwed fsockopen(): SSL: An existing connection was forcibly closed by the remote host.
+
+ERROR - 2022-08-06 03:55:49 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+ERROR - 2022-08-06 03:58:02 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+ERROR - 2022-08-06 04:02:52 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+ERROR - 2022-08-06 04:10:35 --> Email: sendWithSmtp throwed fsockopen(): SSL: An existing connection was forcibly closed by the remote host.
+
+ERROR - 2022-08-06 04:11:42 --> Email: sendWithSmtp throwed fsockopen(): SSL: An existing connection was forcibly closed by the remote host.
+
+ERROR - 2022-08-06 04:12:28 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+CRITICAL - 2022-08-06 04:34:37 --> Undefined index: isi_html_4
+in APPPATH\Views\page\invoice4.php on line 8.
+ 1 APPPATH\Views\page\invoice4.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: isi_html_4', 'APPPATH\\Views\\page\\invoice4.php', 8, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\page\\invoice4.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/invoice4', [], true)
+ 5 APPPATH\Controllers\Riwayat.php(142): view('page/invoice4', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('2', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-06 04:38:29 --> Undefined index: isi_html_4
+in APPPATH\Views\page\invoice4.php on line 8.
+ 1 APPPATH\Views\page\invoice4.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: isi_html_4', 'APPPATH\\Views\\page\\invoice4.php', 8, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\page\\invoice4.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/invoice4', [], true)
+ 5 APPPATH\Controllers\Riwayat.php(143): view('page/invoice4', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('2', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-06 11:36:49 --> Font "dejavuserifcondensed - I" is not supported
+in VENDORPATH\mpdf\mpdf\src\Mpdf.php on line 3873.
+ 1 VENDORPATH\mpdf\mpdf\src\Mpdf.php(4204): Mpdf\Mpdf->AddFont('dejavuserifcondensed', 'I')
+ 2 VENDORPATH\mpdf\mpdf\src\Mpdf.php(19027): Mpdf\Mpdf->SetFont('dejavuserifcondensed', 'I', 11.0, false)
+ 3 VENDORPATH\mpdf\mpdf\src\Mpdf.php(18622): Mpdf\Mpdf->SetStyle('I', true)
+ 4 VENDORPATH\mpdf\mpdf\src\Tag\InlineTag.php(56): Mpdf\Mpdf->setCSS([...], 'INLINE')
+ 5 VENDORPATH\mpdf\mpdf\src\Tag.php(240): Mpdf\Tag\InlineTag->open([...], [...], 45)
+ 6 VENDORPATH\mpdf\mpdf\src\Mpdf.php(13850): Mpdf\Tag->OpenTag('I', [...], [...], 45)
+ 7 VENDORPATH\mpdf\mpdf\src\Mpdf.php(12453): Mpdf\Mpdf->WriteHTML('<section id="footer "> <div class="footer "> <table border="1" style="width:100%;"> <tr> <td style="width: 30%; padding-top: 20px;position: relative;bottom: 0px;margin-top: 50px;padding-bottom: 20px;font-family: "Alegreya", serif; "> <p class="footer1" style="margin: 2px; letter-spacing: 2px; font-weight: 600;">DIKIRIMKAN UNTUK</p> <p style="margin: 2px;">Admin</p> <p style="margin: 2px;">Orang Tua dari Fajariana Muthia Hafifia Rysman Gyto</p> <p style="margin: 2px;">Admin@gmail.com</p></td> <td style="width: 70%; text-align: right"> <img src="..\\img\\logotulisan.png" style="opacity: 0.5" /><img src="..\\img\\pdflogo.png" alt="" class="mx-auto" style="height: 150px; opacity: 0.5" /></td> </tr> </table> <div class="row text-center rowbottom"> <p><i class="fa-solid fa-globe"></i>www.akusiapsekolah.com</p> </div> </div> </section>', 4)
+ 8 VENDORPATH\mpdf\mpdf\src\Mpdf.php(12729): Mpdf\Mpdf->_getHtmlHeight('<section id="footer ">
+                <div class="footer ">
+                <table border="1" style="width:100%;">
+                <tr>
+                    <td style="width: 30%; padding-top: 20px;position: relative;bottom: 0px;margin-top: 50px;padding-bottom: 20px;font-family: "Alegreya", serif; ">
+                        <p class="footer1" style="margin: 2px; letter-spacing: 2px; font-weight: 600;">DIKIRIMKAN UNTUK</p>
+                        <p style="margin: 2px;">Admin</p>
+                        <p style="margin: 2px;">Orang Tua dari Fajariana Muthia Hafifia Rysman Gyto</p>
+                        <p style="margin: 2px;">Admin@gmail.com</p>
+                    </td>
+                    <td style="width: 70%; text-align: right">
+                        <img src="..\\img\\logotulisan.png" style="opacity: 0.5"><img src="..\\img\\pdflogo.png" alt="" class="mx-auto" style="height: 150px; opacity: 0.5">
+                    </td>
+                </tr>
+                </table>
+                    <div class="row text-center rowbottom">
+                        <p><i class="fa-solid fa-globe"></i>www.akusiapsekolah.com</p>
+                    </div>
+                </div>
+                </section>')
+ 9 APPPATH\Controllers\Riwayat.php(131): Mpdf\Mpdf->DefHTMLFooterByName('defaultFooter', '<section id="footer ">
+                <div class="footer ">
+                <table border="1" style="width:100%;">
+                <tr>
+                    <td style="width: 30%; padding-top: 20px;position: relative;bottom: 0px;margin-top: 50px;padding-bottom: 20px;font-family: "Alegreya", serif; ">
+                        <p class="footer1" style="margin: 2px; letter-spacing: 2px; font-weight: 600;">DIKIRIMKAN UNTUK</p>
+                        <p style="margin: 2px;">Admin</p>
+                        <p style="margin: 2px;">Orang Tua dari Fajariana Muthia Hafifia Rysman Gyto</p>
+                        <p style="margin: 2px;">Admin@gmail.com</p>
+                    </td>
+                    <td style="width: 70%; text-align: right">
+                        <img src="..\\img\\logotulisan.png" style="opacity: 0.5"><img src="..\\img\\pdflogo.png" alt="" class="mx-auto" style="height: 150px; opacity: 0.5">
+                    </td>
+                </tr>
+                </table>
+                    <div class="row text-center rowbottom">
+                        <p><i class="fa-solid fa-globe"></i>www.akusiapsekolah.com</p>
+                    </div>
+                </div>
+                </section>')
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Riwayat->print('8', '7')
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-06 12:48:00 --> syntax error, unexpected '<=' (T_IS_SMALLER_OR_EQUAL)
+in APPPATH\Controllers\Riwayat.php on line 249.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Riwayat.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Riwayat')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Riwayat')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Riwayat')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Riwayat', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
