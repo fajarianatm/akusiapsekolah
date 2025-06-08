@@ -14,13 +14,19 @@ The goal of this project is to provide parents and caregivers with tools to asse
 ## Technologies Used:
 - Frontend: HTML, CSS, JavaScript
 - Backend: Node.js, Express
-- Database: PostgreSQL
+- Database: mySQL
 
 
 ## Contributors:
 - **[Nana](https://github.com/fajarianatm):** Concept creator and content material developer
 - **[Rysman](https://github.com/gyto-git):** Backend developer
 - **[Tia](https://github.com/mthiahfifa):** Frontend developer
+  
+<a href="https://github.com/fajarianatm/akusiapsekolah/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=fajarianatm/akusiapsekolah" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
 
 ## License:
 This project is for documentation purposes only and is not intended for reuse or redistribution.
