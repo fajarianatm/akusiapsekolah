@@ -9,7 +9,7 @@ The goal of this project is to provide parents and caregivers with tools to asse
 ## How It Works:
 - **Assessment Domains:** The website tests the child’s motor (gross and fine) and personal-social skills.
 - **Test Results & Recommendations:** After completing the tests, users will receive test results along with activity suggestions to improve any identified weaknesses based on their child's age.
-- You can see the illustration on this [video](https://github.com/fajarianatm/akusiapsekolah/edit/main/README.md#:~:text=Prototype-,AkuSiapSekolah.mp4)
+- You can see the illustration on this [video](https://github.com/fajarianatm/akusiapsekolah/blob/main/docs/Prototype%20AkuSiapSekolah.mp4)
 
 ## Technologies Used:
 - Frontend: HTML, CSS, JavaScript
